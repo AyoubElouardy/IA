@@ -760,7 +760,7 @@ Below is the complete HTML code with the `callAIApiReal` function integrated, a 
             
             async function callAIApiReal(message, history) {
                 const API_URL = 'https://api.deepseek.com/v1/chat/completions';
-                const API_KEY = 'AQUÍ_VA_TU_CLAVE_DE_API'; // ¡Reemplaza esto con tu clave de API de DeepSeek!
+                const API_KEY = sk-0bfd07382a3e47b49f2f898878f23da4
                 
                 const response = await fetch(API_URL, {
                     method: 'POST',
