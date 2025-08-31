@@ -462,7 +462,7 @@
             
             async function callAIApiReal(message, history) {
                 const API_URL = 'https://api.deepseek.com/v1/chat/completions';
-                const API_KEY = sk-502452ecbf4a4903b0a52d137e8c8db3
+                const API_KEY = 'sk-502452ecbf4a4903b0a52d137e8c8db3'; 
                 
                 const response = await fetch(API_URL, {
                     method: 'POST',
